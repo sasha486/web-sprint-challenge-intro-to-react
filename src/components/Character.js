@@ -6,6 +6,7 @@ import Loader from './Loader';
 
 
 
+
 const Character = ({characters, isLoading}) => {
 
   return (
@@ -17,7 +18,7 @@ isLoading? (
         <li className = 'char-list' key={character.name}>
         
           
-          
+        
               <h3>{character.name}</h3>
               
               <p> {character.birth_year}</p>
